@@ -67,7 +67,7 @@ def server_program():
     init_db()
     
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(('localhost', 65431))
+    server_socket.bind(('localhost', 65432))
     server_socket.listen(1)
 
     conn, addr = server_socket.accept()

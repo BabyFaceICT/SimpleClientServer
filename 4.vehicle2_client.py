@@ -87,7 +87,7 @@ def client_program(db_path):
 
     # TCP 클라이언트 소켓 설정
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client_socket.connect(('localhost', 65434))
+    client_socket.connect(('localhost', 65433))
 
     # 서버로 인증서 전송
     print("클라이언트: 인증서 전송 중...")
